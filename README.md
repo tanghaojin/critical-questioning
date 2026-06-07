@@ -2,7 +2,7 @@
 
 [English](README.md) | [中文](README.zh-CN.md)
 
-Critical Questioning is a Codex skill for auditing arguments in articles, speeches, reports, essays, comments, and viewpoints. It is inspired by the critical-questioning method in *Asking the Right Questions*.
+Critical Questioning is a skill for auditing arguments in articles, speeches, reports, essays, comments, and viewpoints. It is inspired by the critical-questioning method in *Asking the Right Questions*.
 
 The skill helps an agent identify reasoning gaps, weak evidence, hidden assumptions, misleading language, omitted information, alternative explanations, and concrete ways to strengthen an argument.
 
@@ -48,8 +48,6 @@ critical-questioning/
   skills/
     critical-questioning/
       SKILL.md
-      agents/
-        openai.yaml
       references/
         question-chain.md
         report-template.md
@@ -60,7 +58,6 @@ critical-questioning/
 - `skills/critical-questioning/SKILL.md`: trigger description, workflow, default behavior, and output rules.
 - `skills/critical-questioning/references/question-chain.md`: internal audit checklist based on critical questioning.
 - `skills/critical-questioning/references/report-template.md`: bilingual report templates and optional section rules.
-- `skills/critical-questioning/agents/openai.yaml`: UI metadata for Codex skill listings.
 
 ## Installation
 

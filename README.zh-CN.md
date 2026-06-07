@@ -2,7 +2,7 @@
 
 [English](README.md) | [中文](README.zh-CN.md)
 
-Critical Questioning 是一个用于审查观点论证的 Codex skill，适用于文章、演讲、报告、论文、评论和观点文本。它的设计灵感来自《学会提问》中的批判性提问方法。
+Critical Questioning 是一个用于审查观点论证的 skill，适用于文章、演讲、报告、论文、评论和观点文本。它的设计灵感来自《学会提问》中的批判性提问方法。
 
 这个 skill 可以帮助 agent 识别论证缺口、薄弱证据、隐藏假设、误导性语言、遗漏信息、替代解释，并给出可操作的补全建议。
 
@@ -48,8 +48,6 @@ critical-questioning/
   skills/
     critical-questioning/
       SKILL.md
-      agents/
-        openai.yaml
       references/
         question-chain.md
         report-template.md
@@ -60,7 +58,6 @@ critical-questioning/
 - `skills/critical-questioning/SKILL.md`：触发描述、工作流、默认行为和输出规则。
 - `skills/critical-questioning/references/question-chain.md`：基于批判性提问的内部审查清单。
 - `skills/critical-questioning/references/report-template.md`：中英文报告模板和可选栏目规则。
-- `skills/critical-questioning/agents/openai.yaml`：Codex skill 列表使用的界面元数据。
 
 ## 安装
 
